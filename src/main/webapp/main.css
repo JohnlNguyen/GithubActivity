@@ -1,3 +1,31 @@
+#title {
+    color: white;
+}
+
+#title2 {
+    color: white;
+}
+
+#clickable {
+    text-align: center;
+}
+
+#table {
+    text-align: left;
+}
+
+.jumbotron {
+    background-image: url("desert2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 320px;
+}
+
+#date {
+    text-align: center;
+}
+
 #core {
     width: 100%;
     margin: 50px 50px 0 50px;
@@ -5,6 +33,10 @@
 
 #user {
     width: 300px;
+}
+
+#tag {
+    color: white;
 }
 
 pre {
