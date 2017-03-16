@@ -87,7 +87,7 @@ public class GithubQuerier {
 
     private static List<JSONObject> getEvents(String user) throws IOException {
         List<JSONObject> eventList = new ArrayList<JSONObject>();
-        String access_token = "?access_token=7d316fab88881a06cf614ad20db93a8f2d5ba8fc";
+        String access_token = "?access_token=";
         String url = BASE_URL + user + "/events" + access_token;
         System.out.println(url);
         // Go through up to 50 pages
